@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_get_location"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/get_location"
+        android:layout_centerHorizontal="true" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_lock"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/lock_the_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_get_location"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_wipe_data"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/wipe_data"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_lock"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_enable"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/enable"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_wipe_data"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_disable"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/disable"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_enable"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textview_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        android:text="@string/get_location"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_disable"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Find My Phone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lock_the_phone">Lock the Phone</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="get_location">Get location</string>
+    <string name="wipe_data">Wipe data</string>
+</resources>
